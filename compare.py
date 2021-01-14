@@ -8,8 +8,8 @@ parser.add_argument('-d', dest = 'subdir')
 args = parser.parse_args() 
 subdir = args.subdir
 
-model1 = 'SOCOL-AERv2_demo'
-model2 = 'SOCOLv3.1'
+model2 = 'SOCOL-AERv2_demo'
+model1 = 'SOCOLv3.1'
 
 dir_1 = os.path.join(model1,subdir)
 dir_2 = os.path.join(model2,subdir)
